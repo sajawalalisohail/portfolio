@@ -1,0 +1,44 @@
+/* You can add custom CSS and extend Boostrap styles in this file.
+   Remember, Bootstrap is just CSS at the end of the day!
+*/
+
+.my-red-link {
+  color: red;
+  text-decoration: underline;
+}
+
+.my-red-link:hover,
+.my-red-link:focus {
+  color: darkred;
+}
+
+.bg-custom {
+  background-color: #17252a !important;
+  color: white;
+}
+
+.skill-icon {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.social-icon {
+  transition: color 0.3s ease;
+}
+.social-icon:hover {
+  color: #ff6262;
+  transform: scale(1.1);
+}
+.contact-logo {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  opacity: 0.8;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.contact-logo:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}

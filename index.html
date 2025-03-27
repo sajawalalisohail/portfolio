@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="milestone" content="Portfolio" />
+    <title>Sajawal Ali Sohail - Portfolio</title>
+
+    <!-- 1) Bootstrap CSS (CDN) -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- 2) Bootstrap Icons (CDN) -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+
+    <!-- 3) Font Awesome (CDN) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-+G7lFSiZDxFLZig66tyLa7Jf5Z8ZQzAlkCOI3/MzF5N37EvUsuwftZ9TzHIZTzmpsp2o65QkhEW8BB6tGg9eMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- 4) Custom CSS -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <!-- =========================================
+         NAVBAR
+         ========================================= -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#hero-section">
+          <i class="bi bi-laptop"></i>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainNavbar"
+          aria-controls="mainNavbar"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNavbar">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#mission-section">Mission</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills-section">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#carousel-section">Inspiration</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact-section">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- =========================================
+         HERO SECTION
+         ========================================= -->
+    <section
+      id="hero-section"
+      class="vh-100 d-flex align-items-center justify-content-center position-relative"
+      style="background: url('./img/bg.avif') center center/cover no-repeat"
+    >
+      <!-- Dark overlay -->
+      <div
+        class="position-absolute top-0 start-0 w-100 h-100"
+        style="background-color: rgba(0, 0, 0, 0.5)"
+      ></div>
+
+      <!-- Hero Content -->
+      <div class="text-center text-white position-relative">
+        <img
+          src="./img/alisdcv.jpg"
+          alt="Your Headshot"
+          class="rounded-circle mb-3"
+          style="
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border: 3px solid #fff;
+          "
+        />
+        <h1 class="fw-bold">Sajawal Ali Sohail</h1>
+        <p class="lead">AI is the future!</p>
+      </div>
+    </section>
+
+    <!-- =========================================
+         MISSION SECTION
+         ========================================= -->
+    <section id="mission-section" class="py-5 bg-custom">
+      <div class="container">
+        <h2 class="text-center mb-4">Mission</h2>
+        <div class="row align-items-center">
+          <!-- Mission Image -->
+          <div class="col-12 col-md-6 text-center mb-3 mb-md-0">
+            <img
+              src="./img/mission.png"
+              alt="Mission Image"
+              class="img-fluid"
+            />
+          </div>
+          <!-- Mission Text -->
+          <div class="col-12 col-md-6">
+            <p>
+              I am driven to leverage advanced computational and AI skills to
+              create efficient, impactful solutions—whether developing
+              eco-friendly propulsion controls, AI-powered learning platforms,
+              or robust software systems. Through a collaborative approach and
+              continuous innovation, I strive to bridge the gap between
+              cutting-edge technology and real-world problems.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================
+         SKILLS SECTION
+         ========================================= -->
+    <section id="skills-section" class="py-5 bg-custom">
+      <div class="container">
+        <h2 class="text-center mb-4">Skills</h2>
+        <div class="row">
+          <!-- Skill 1 -->
+          <div class="col-12 col-md-6 col-lg-3 mb-4 text-center">
+            <img src="img/icon1.jpg" alt="Skill Icon" class="mb-2 skill-icon" />
+            <h5>Programming Languages</h5>
+            <p>Python, Java, C, C#</p>
+          </div>
+          <!-- Skill 2 -->
+          <div class="col-12 col-md-6 col-lg-3 mb-4 text-center">
+            <img src="img/we.webp" alt="Skill Icon" class="mb-2 skill-icon" />
+            <h5>Web Development</h5>
+            <p>HTML, CSS, JavaScript, React, Node.js, Flask</p>
+          </div>
+          <!-- Skill 3 -->
+          <div class="col-12 col-md-6 col-lg-3 mb-4 text-center">
+            <img src="img/ai.jpg" alt="Skill Icon" class="mb-2 skill-icon" />
+            <h5>AI & Data Science</h5>
+            <p>Machine Learning, NLP, LLMs, TensorFlow, NumPy</p>
+          </div>
+          <!-- Skill 4 -->
+          <div class="col-12 col-md-6 col-lg-3 mb-4 text-center">
+            <img src="img/devop.jpg" alt="Skill Icon" class="mb-2 skill-icon" />
+            <h5>Databases & DevOps</h5>
+            <p>SQL, AWS, Azure, Git, CI/CD</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bootstrap Carousel -->
+
+    <section id="carousel-section" class="py-5 bg-custom text-white">
+      <div class="container">
+        <h2 class="text-center mb-4">Inspiration</h2>
+
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+          <!-- Indicators -->
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#myCarousel"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#myCarousel"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#myCarousel"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+              <img
+                src="img/2312.jpg"
+                class="d-block w-100 carousel-image"
+                alt="Slide 1"
+              />
+            </div>
+            <!-- Slide 2 -->
+            <div class="carousel-item">
+              <img
+                src="img/q1.jpg"
+                class="d-block w-100 carousel-image"
+                alt="Slide 2"
+              />
+            </div>
+            <!-- Slide 3 -->
+            <div class="carousel-item">
+              <img
+                src="img/q3.jpeg"
+                class="d-block w-100 carousel-image"
+                alt="Slide 3"
+              />
+            </div>
+          </div>
+
+          <!-- Controls (Prev/Next) -->
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- =========================================
+         CONTACT SECTION
+         ========================================= -->
+    <section id="contact-section" class="py-5 bg-custom">
+      <div class="container text-center">
+        <h2 class="mb-4">Contact</h2>
+        <div class="row justify-content-center">
+          <!-- LinkedIn -->
+          <div class="col-6 col-md-3 mb-4">
+            <a
+              href="https://www.linkedin.com/in/sajawalalisohail"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-decoration-none text-white"
+            >
+              <img
+                src="img/linkedin.png"
+                alt="LinkedIn Logo"
+                class="contact-logo mb-2"
+              />
+              <p>LinkedIn</p>
+            </a>
+          </div>
+          <!-- GitHub -->
+          <div class="col-6 col-md-3 mb-4">
+            <a
+              href="https://github.com/sajawalalisohail"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-decoration-none text-white"
+            >
+              <img
+                src="img/github.png"
+                alt="GitHub Logo"
+                class="contact-logo mb-2"
+              />
+              <p>GitHub</p>
+            </a>
+          </div>
+          <!-- Email -->
+          <div class="col-6 col-md-3 mb-4">
+            <a
+              href="mailto:ss0302@mix.wvu.edu"
+              class="text-decoration-none text-white"
+            >
+              <img
+                src="img/mail.png"
+                alt="Email Logo"
+                class="contact-logo mb-2"
+              />
+              <p>Email</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- =========================================
+         FOOTER
+         ========================================= -->
+    <footer
+      id="footer-section"
+      class="bg-dark text-white d-flex justify-content-center align-items-center"
+      style="height: 60px"
+    >
+      <p class="m-0">&copy; Sajawal Ali Sohail 2025</p>
+    </footer>
+
+    <!-- 5) Bootstrap JS (CDN) -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
